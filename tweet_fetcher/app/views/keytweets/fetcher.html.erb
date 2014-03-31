@@ -1,8 +1,8 @@
 <h1>Requested tweets</h1>
 <p class="desc">here is the tweet list with <i>keyword</i> <b><%= @keyword %></b></p>
-<ol>
+<ol style="list-style: none">
 	<% @tweet.collect do |a| %>
-		<li><%= a.id %> : <%= a.user.screen_name %> : <%= highlight(a.text,@keyword) %></li>
+		<li class="well text-info"><b><%= a.user.screen_name %></b> : <%= highlight(a.text,@keyword) %></li>
 	<% end %>
 	
 </ol>
