@@ -1,4 +1,3 @@
-<%= javascript_include_tag "jscroll" %>
 
 <ol style="list-style: none" class="scroll customol">
 	<% @tweet.collect do |a| %>
@@ -6,9 +5,3 @@
 	<% end %>
 	<a href='keytweets/custompage?key=<%= @keyword %>'>load more</a>
 </ol>
-
-<script type="text/javascript">
-	$('.scroll').jscroll({
-		autoTrigger: false
-	});
-</script>

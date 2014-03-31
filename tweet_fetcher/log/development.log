@@ -14838,3 +14838,877 @@ Started GET "/assets/application.js?body=1&_=1396294494216" for 127.0.0.1 at 201
 
 
 Started GET "/assets/jscroll.js?body=1&_=1396294494217" for 127.0.0.1 at 2014-04-01 01:05:09 +0530
+
+
+Started POST "/keytweets" for 127.0.0.1 at 2014-04-01 01:26:56 +0530
+Processing by KeytweetsController#fetcher as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"frS4NoENpYSuqMmqezlp97oMdNauqx+du5ktNkKkrPc=", "keyword"=>"reading", "commit"=>"Search"}
+  Rendered keytweets/fetcher.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 2544ms (Views: 162.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/jscroll.js?body=1" for 127.0.0.1 at 2014-04-01 01:26:59 +0530
+
+
+Started GET "/assets/keytweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:00 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:00 +0530
+
+
+Started GET "/assets/query.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:00 +0530
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:00 +0530
+
+
+Started POST "/keytweets" for 127.0.0.1 at 2014-04-01 01:27:52 +0530
+Processing by KeytweetsController#fetcher as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"frS4NoENpYSuqMmqezlp97oMdNauqx+du5ktNkKkrPc=", "keyword"=>"reading", "commit"=>"Search"}
+  Rendered keytweets/fetcher.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 2306ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/keytweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/query.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/jscroll.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 01:27:55 +0530
+
+
+Started GET "/keytweets/custompage?key=reading" for 127.0.0.1 at 2014-04-01 01:27:58 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"reading"}
+  Rendered keytweets/custompage.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 2271ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/jscroll.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/keytweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/query.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:00 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/jscroll.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/keytweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started GET "/assets/query.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:09 +0530
+
+
+Started POST "/keytweets" for 127.0.0.1 at 2014-04-01 01:28:26 +0530
+Processing by KeytweetsController#fetcher as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"frS4NoENpYSuqMmqezlp97oMdNauqx+du5ktNkKkrPc=", "keyword"=>"reading", "commit"=>"Search"}
+  Rendered keytweets/fetcher.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 2349ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/jscroll.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/keytweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/query.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 01:28:28 +0530
+
+
+Started GET "/keytweets/custompage?key=reading" for 127.0.0.1 at 2014-04-01 01:28:30 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"reading"}
+  Rendered keytweets/custompage.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 2276ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295908897" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295908898" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295908899" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295908900" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295908901" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295908902" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295908903" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295908904" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295908905" for 127.0.0.1 at 2014-04-01 01:28:33 +0530
+
+
+Started POST "/keytweets" for 127.0.0.1 at 2014-04-01 01:29:17 +0530
+Processing by KeytweetsController#fetcher as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"frS4NoENpYSuqMmqezlp97oMdNauqx+du5ktNkKkrPc=", "keyword"=>"reading", "commit"=>"Search"}
+  Rendered keytweets/fetcher.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 2287ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/keytweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/query.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/jscroll.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:19 +0530
+
+
+Started GET "/keytweets/custompage?key=reading" for 127.0.0.1 at 2014-04-01 01:29:22 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"reading"}
+  Rendered keytweets/custompage.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 2265ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295959726" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295959727" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295959728" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295959729" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295959730" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295959731" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295959732" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295959733" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295959734" for 127.0.0.1 at 2014-04-01 01:29:24 +0530
+
+
+Started GET "/keytweets/custompage?key=reading" for 127.0.0.1 at 2014-04-01 01:29:27 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"reading"}
+  Rendered keytweets/custompage.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 2292ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295959735" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295959736" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295959737" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295959738" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295959739" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295959740" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295959741" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295959742" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295959743" for 127.0.0.1 at 2014-04-01 01:29:30 +0530
+
+
+Started GET "/keytweets" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+Processing by KeytweetsController#index as HTML
+  Rendered keytweets/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/jscroll.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/query.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/keytweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:36 +0530
+
+
+Started POST "/keytweets" for 127.0.0.1 at 2014-04-01 01:29:40 +0530
+Processing by KeytweetsController#fetcher as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"frS4NoENpYSuqMmqezlp97oMdNauqx+du5ktNkKkrPc=", "keyword"=>"@DhruvAgarwalDTU", "commit"=>"Search"}
+  Rendered keytweets/fetcher.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1403ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:41 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/jscroll.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/query.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/keytweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/tweets.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 01:29:42 +0530
+
+
+Started GET "/keytweets/custompage?key=@DhruvAgarwalDTU" for 127.0.0.1 at 2014-04-01 01:29:43 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"@DhruvAgarwalDTU"}
+  Rendered keytweets/custompage.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1359ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:44 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:44 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:44 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:44 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295982117" for 127.0.0.1 at 2014-04-01 01:29:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295982118" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295982119" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295982120" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295982121" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295982122" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295982123" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295982124" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295982125" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+
+
+Started GET "/keytweets/custompage?key=@DhruvAgarwalDTU" for 127.0.0.1 at 2014-04-01 01:29:45 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"@DhruvAgarwalDTU"}
+  Rendered keytweets/custompage.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1354ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295982126" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295982127" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295982128" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295982129" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295982130" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295982131" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295982132" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295982133" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295982134" for 127.0.0.1 at 2014-04-01 01:29:47 +0530
+
+
+Started GET "/keytweets/custompage?key=@DhruvAgarwalDTU" for 127.0.0.1 at 2014-04-01 01:29:48 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"@DhruvAgarwalDTU"}
+  Rendered keytweets/custompage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1397ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295982135" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295982136" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295982137" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295982138" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295982139" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295982140" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295982141" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295982142" for 127.0.0.1 at 2014-04-01 01:29:49 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295982143" for 127.0.0.1 at 2014-04-01 01:29:50 +0530
+
+
+Started GET "/keytweets/custompage?key=@DhruvAgarwalDTU" for 127.0.0.1 at 2014-04-01 01:29:50 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"@DhruvAgarwalDTU"}
+  Rendered keytweets/custompage.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1351ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:51 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:51 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:51 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:51 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:51 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295982144" for 127.0.0.1 at 2014-04-01 01:29:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295982145" for 127.0.0.1 at 2014-04-01 01:29:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295982146" for 127.0.0.1 at 2014-04-01 01:29:51 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295982147" for 127.0.0.1 at 2014-04-01 01:29:52 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295982148" for 127.0.0.1 at 2014-04-01 01:29:52 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295982149" for 127.0.0.1 at 2014-04-01 01:29:52 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295982150" for 127.0.0.1 at 2014-04-01 01:29:52 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295982151" for 127.0.0.1 at 2014-04-01 01:29:52 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295982152" for 127.0.0.1 at 2014-04-01 01:29:52 +0530
+
+
+Started GET "/keytweets/custompage?key=@DhruvAgarwalDTU" for 127.0.0.1 at 2014-04-01 01:29:54 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"@DhruvAgarwalDTU"}
+  Rendered keytweets/custompage.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1403ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295982153" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295982154" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295982155" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295982156" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295982157" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295982158" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295982159" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295982160" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295982161" for 127.0.0.1 at 2014-04-01 01:29:55 +0530
+
+
+Started GET "/keytweets/custompage?key=@DhruvAgarwalDTU" for 127.0.0.1 at 2014-04-01 01:29:56 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"@DhruvAgarwalDTU"}
+  Rendered keytweets/custompage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1349ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295982162" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295982163" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295982164" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295982165" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295982166" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295982167" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295982168" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295982169" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295982170" for 127.0.0.1 at 2014-04-01 01:29:58 +0530
+
+
+Started GET "/keytweets/custompage?key=@DhruvAgarwalDTU" for 127.0.0.1 at 2014-04-01 01:29:59 +0530
+Processing by KeytweetsController#custompage as HTML
+  Parameters: {"key"=>"@DhruvAgarwalDTU"}
+  Rendered keytweets/custompage.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1358ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/query.css?body=1" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/jquery.js?body=1&_=1396295982171" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/keytweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/tweets.css?body=1" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1&_=1396295982172" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1&_=1396295982173" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/jquery.lazyload.js?body=1&_=1396295982174" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/jscroll.js?body=1&_=1396295982175" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/keytweets.js?body=1&_=1396295982176" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/query.js?body=1&_=1396295982177" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/tweets.js?body=1&_=1396295982178" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
+
+
+Started GET "/assets/application.js?body=1&_=1396295982179" for 127.0.0.1 at 2014-04-01 01:30:00 +0530
