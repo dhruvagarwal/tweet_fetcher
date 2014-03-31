@@ -6,8 +6,9 @@
 	<% @tweet.collect do |a| %>
 		<li class="well text-info"><b><%= a.user.screen_name %></b> : <%= highlight(a.text,@keyword) %></li>
 	<% end %>	
-	<a href='keytweets/custompage?key=<%= @keyword %>'>load more</a>
+	<a href='keytweets/custompage?id=0&key=<%= @keyword %>'>load more</a>
 </ol>
+
 <script type="text/javascript">
 	$('.scroll').jscroll({
 		autoTrigger : false
