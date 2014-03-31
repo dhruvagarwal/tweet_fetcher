@@ -1,8 +1,9 @@
 TweetFetcher::Application.routes.draw do
   match '/keytweets' => 'keytweets#index', via: :get
   match '/keytweets' => 'keytweets#fetcher', via: :post
-  get "query/search"
-  get "tweets/index"
+  get 'keytweets/custompage'
+  get 'query/search'
+  get 'tweets/index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
