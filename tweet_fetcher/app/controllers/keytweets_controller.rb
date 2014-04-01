@@ -11,7 +11,7 @@ class KeytweetsController < ApplicationController
 		config.access_token_secret = 'GTAI52goIwyoUCKci4l9AimKKaIfCK68J1mGp4wSiDKBL'
 	end
   	@keyword=params["keyword"]
-	@tweet=client.search(@keyword).take(20) #, :result_type => "recent").take(20)
+	@tweet=client.search(@keyword).take(10) #, :result_type => "recent").take(20)
   end
 
   def custompage
@@ -21,8 +21,8 @@ class KeytweetsController < ApplicationController
 		config.access_token = '2416338816-xAVrVBpdtjvStiXoqUHPTHDu1y1sPf7rJ8p0R4z'
 		config.access_token_secret = 'GTAI52goIwyoUCKci4l9AimKKaIfCK68J1mGp4wSiDKBL'
 	end
-	@id=Integer(params["id"])+1
+	#@id=Integer(params["id"])+1
 	@keyword=params["key"]
-	@tweet=client.search(@keyword).take(20) #, :result_type => "recent").take(20)
+	@tweet=client.search(@keyword).take(10) #, :result_type => "recent").take(20)
   end
 end

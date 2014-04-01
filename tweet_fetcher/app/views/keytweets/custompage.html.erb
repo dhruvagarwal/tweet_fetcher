@@ -1,14 +1,8 @@
 
-<ol style="list-style: none" class="scroll1 customol">
-	<% @tweet.collect do |a| %>
-		<li class="well text-info"><b><%= a.user.screen_name %></b> : <%= highlight(a.text,@keyword) %></li>
-	<% end %>
-	<a href='keytweets/custompage?id=<%= @id %>&key=<%= @keyword %>'>load more</a>
-</ol>
-<%if @id==1 %>
-	<script type="text/javascript">
-		$('.scroll1').jscroll({
-			autoTrigger : false
-		});
-	</script>
-<% end %>
+<div class="scroll">
+		<% @tweet.collect do |a| %>
+			<p class="well text-info"><b><%= a.user.screen_name %></b> : <%= highlight(a.text,@keyword) %></p>
+		<% end %>	
+	</ol>
+	<div class='next' > <a href='keytweets/custompage?key=<%= @keyword %>'>load more</a></div>
+</div>
