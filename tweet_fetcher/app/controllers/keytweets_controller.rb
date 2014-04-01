@@ -1,4 +1,5 @@
 require 'twitter'
+require 'open-uri'
 class KeytweetsController < ApplicationController	
   def index
   end
@@ -11,6 +12,7 @@ class KeytweetsController < ApplicationController
 		config.access_token_secret = 'GTAI52goIwyoUCKci4l9AimKKaIfCK68J1mGp4wSiDKBL'
 	end
   	@keyword=params["keyword"]
+  	@keyword=URI::encode(@keyword)
 	@tweet=client.search(@keyword).take(10) #, :result_type => "recent").take(20)
   end
 
@@ -23,6 +25,7 @@ class KeytweetsController < ApplicationController
 	end
 	#@id=Integer(params["id"])+1
 	@keyword=params["key"]
+	@keyword=URI::encode(@keyword)
 	@tweet=client.search(@keyword).take(10) #, :result_type => "recent").take(20)
   end
 end
